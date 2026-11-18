@@ -1,8 +1,8 @@
 import "./index.css";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { MessageSquareText, X, ChevronRight, CalendarDays, Check, Plus, Trash2, Users, ShieldCheck, Zap, Brain, Home, Bookmark, ArrowLeft, Save, Target, Medal, CreditCard, Sparkles, Trophy, Search, Copy, Eraser, Flame, Dumbbell, BookOpen, Timer, Star, Mic, MicOff, Share2 } from "lucide-react";
-import bgUrl from "d7c09e1f927b6bc8-GRIT_Sprinter_kinda_buiklt_bakgroiund.webp";
-import gritIconUrl from "3148cf38569dcac7-image_20261116_133450.webp";
+import bgUrl from "./d7c09e1f927b6bc8-GRIT_Sprinter_kinda_buiklt_bakgroiund.webp";
+import gritIconUrl from "./3148cf38569dcac7-image_20261116_133450.webp";
 
 function GritIcon({ size = 44, rounded = 10 }: { size?: number; rounded?: number }) {
   return (
